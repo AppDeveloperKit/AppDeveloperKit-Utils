@@ -4,12 +4,12 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Utils'
-s.version           = '1.0.2'
+s.version           = '1.0.3'
 s.summary           = 'A collection of utilities for AppDeveloperKit.'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Utils'
 
 s.description      = <<-DESC
-Detail is TBD.
+A collection of utilities for AppDeveloperKit.  Detail is TBD.
 DESC
 
 s.author            = { 'Name' => 'Scott Carter' }
