@@ -4,9 +4,13 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Utils'
-s.version           = '1.0.1'
-s.summary           = 'NA'
-s.homepage          = 'http://example.com'
+s.version           = '1.0.2'
+s.summary           = 'A collection of utilities for AppDeveloperKit.'
+s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Utils'
+
+s.description      = <<-DESC
+Detail is TBD.
+DESC
 
 s.author            = { 'Name' => 'Scott Carter' }
 s.license           = { :type => 'Custom', :file => 'LICENSE' }
