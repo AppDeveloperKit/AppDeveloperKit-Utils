@@ -1,6 +1,6 @@
 
-# pod spec lint FastStart_Utils.podspec
-# pod lib lint FastStart_Utils.podspec
+# pod spec lint AppDeveloperKit-Utils.podspec
+# pod lib lint AppDeveloperKit-Utils.podspec
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Utils'
