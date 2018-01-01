@@ -184,9 +184,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wunknown-pragmas"
 #pragma clang diagnostic ignored "-Wnullability"
 
-SWIFT_MODULE_NAMESPACE_PUSH("FastStart_Utils")
+SWIFT_MODULE_NAMESPACE_PUSH("AppDeveloperKit_Utils")
 
-@interface UIColor (SWIFT_EXTENSION(FastStart_Utils))
+@interface UIColor (SWIFT_EXTENSION(AppDeveloperKit_Utils))
 - (nullable instancetype)initWithFs_rgb:(NSString * _Nonnull)fs_rgb;
 - (nullable instancetype)initWithFs_hex:(NSString * _Nonnull)fs_hex;
 @property (nonatomic, readonly, copy) NSString * _Nullable fs_toHex;

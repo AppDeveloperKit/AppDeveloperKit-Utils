@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Utils'
-s.version           = '1.0.3'
+s.version           = '1.0.4'
 s.summary           = 'A collection of utilities for AppDeveloperKit.'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Utils'
 
@@ -25,10 +25,10 @@ s.ios.deployment_target = '10.3'
 
 # Binary install.
 #
-s.ios.vendored_frameworks = 'FastStart_Utils.framework'
+s.ios.vendored_frameworks = 'AppDeveloperKit_Utils.framework'
 
 # Local testing
-# s.source            = { :http => 'http://127.0.0.1/AppDeveloperKit-Utils/FastStart_Utils.framework.zip' }
+# s.source            = { :http => 'http://127.0.0.1/AppDeveloperKit-Utils/AppDeveloperKit_Utils.framework.zip' }
 
 s.source            = { :git => 'https://github.com/AppDeveloperKit/AppDeveloperKit-Utils.git', :tag => s.version.to_s }
 
