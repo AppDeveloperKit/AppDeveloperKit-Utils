@@ -187,12 +187,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_MODULE_NAMESPACE_PUSH("AppDeveloperKit_Utils")
 
 @interface UIColor (SWIFT_EXTENSION(AppDeveloperKit_Utils))
-- (nullable instancetype)initWithFs_rgb:(NSString * _Nonnull)fs_rgb;
-- (nullable instancetype)initWithFs_hex:(NSString * _Nonnull)fs_hex;
-@property (nonatomic, readonly, copy) NSString * _Nullable fs_toHex;
-@property (nonatomic, readonly, copy) NSString * _Nullable fs_toRGBA;
-- (NSString * _Nullable)fs_toHexWithAlpha:(BOOL)alpha SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nonnull)fs_extractStrWithRange:(NSRange)range str:(NSString * _Nonnull)str SWIFT_WARN_UNUSED_RESULT;
+- (nullable instancetype)initWithAdk_rgb:(NSString * _Nonnull)adk_rgb;
+- (nullable instancetype)initWithAdk_hex:(NSString * _Nonnull)adk_hex;
+@property (nonatomic, readonly, copy) NSString * _Nullable adk_toHex;
+@property (nonatomic, readonly, copy) NSString * _Nullable adk_toRGBA;
+- (NSString * _Nullable)adk_toHexWithAlpha:(BOOL)alpha SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)adk_extractStrWithRange:(NSRange)range str:(NSString * _Nonnull)str SWIFT_WARN_UNUSED_RESULT;
 @end
 
 SWIFT_MODULE_NAMESPACE_POP
