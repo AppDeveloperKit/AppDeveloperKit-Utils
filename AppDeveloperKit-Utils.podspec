@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Utils'
-s.version           = '1.0.7'
+s.version           = '1.0.8'
 s.summary           = 'A collection of utilities for AppDeveloperKit.'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Utils'
 
@@ -18,7 +18,7 @@ s.license           = { :type => 'Custom', :file => 'LICENSE' }
 
 s.platform          = :ios
 
-s.ios.deployment_target = '10.3'
+s.ios.deployment_target = '11.0'
 
 # 3rd party dependencies
 # None
