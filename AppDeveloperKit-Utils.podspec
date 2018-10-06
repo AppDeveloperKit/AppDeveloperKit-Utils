@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Utils'
-s.version           = '1.0.8'
+s.version           = '1.0.9'
 s.summary           = 'A collection of utilities for AppDeveloperKit.'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Utils'
 
