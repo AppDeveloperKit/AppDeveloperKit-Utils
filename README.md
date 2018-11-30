@@ -1,6 +1,7 @@
 # AppDeveloperKit-Utils
 
-A collection of utilities for AppDeveloperKit.
+AppDeveloperKit-Utils is part of AppDeveloperKit which is still in the testing phase.  Learn more about this tool in [the documentation](http://appdeveloperkit.com).
 
-Detail TBD.
+Perhaps you might like to check out [AppDeveloperKit-String](https://github.com/AppDeveloperKit/AppDeveloperKit-String) which has been released.
+
 
